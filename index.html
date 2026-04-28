@@ -73,6 +73,11 @@
             box-shadow: 0 10px 40px -15px rgba(10, 102, 194, 0.5);
         }
 
+        .whatsapp-card:hover {
+            border-color: #25D366 !important;
+            box-shadow: 0 10px 30px -15px rgba(37, 211, 102, 0.3) !important;
+        }
+
         .typing::after { content: '_'; animation: blink 1s infinite; color: #a855f7; }
         @keyframes blink { 50% { opacity: 0; } }
 
@@ -227,7 +232,7 @@
             <!-- ── Linha de contato: WhatsApp + Email ── -->
             <!-- WhatsApp -->
             <a href="https://wa.me/5538998411650" target="_blank" 
-               class="reveal delay-4 contact-btn-wrap md-col-1 bento-card rounded-[2rem] flex flex-col items-center justify-center gap-2 sm:gap-3 group py-4 sm:py-0">
+               class="reveal delay-4 contact-btn-wrap md-col-1 bento-card whatsapp-card rounded-[2rem] flex flex-col items-center justify-center gap-2 sm:gap-3 group py-4 sm:py-0">
                 <i data-lucide="message-circle" class="w-7 h-7 sm:w-8 sm:h-8 text-zinc-500 group-hover:text-[#25D366] transition-colors"></i>
                 <span class="btn-label font-bold text-white text-[11px] sm:text-xs uppercase tracking-widest">WhatsApp</span>
             </a>
